@@ -23,7 +23,7 @@ const Card: React.FC<CardProps> = ({
         <div>
           <div className="relative h-96 bg-center ">
             <Image
-              src={""}
+              src={imageUrl}
               alt={name}
               fill={true}
               className="rounded-t"
